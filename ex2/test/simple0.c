@@ -3,7 +3,7 @@
 #include "../include/Runtime.h"
 
 int main() {
-  int x; DSE_Input(x);
-  x = x + 1;
+  int x = 1;
+  int y = x;
   return 0;
 }

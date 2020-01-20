@@ -1,6 +1,6 @@
 .PRECIOUS: %.ll %.instrumented.ll
 
-TARGETS=simple0 simple1 branch0 branch1 branch2 infeasable
+TARGETS=simple0 simple1 simple2 branch0 branch1 branch2 infeasable
 
 all: ${TARGETS}
 
